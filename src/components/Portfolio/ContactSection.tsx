@@ -46,7 +46,7 @@ const ContactSection = () => {
                   className="min-h-32 resize-none"
                 />
               </div>
-              <Button variant="hero" className="w-full" size="lg">
+              <Button variant="elegant" className="w-full font-professional" size="lg">
                 Send Message
               </Button>
             </form>

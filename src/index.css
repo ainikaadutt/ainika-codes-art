@@ -2,64 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Ainika's Portfolio Design System - Professional & Artistic */
+/* Ainika's Portfolio Design System - Professional & Elegant for Women */
 
 @layer base {
   :root {
     /* Core Background & Text */
-    --background: 240 6% 97%;
-    --foreground: 235 25% 15%;
+    --background: 330 15% 98%;
+    --foreground: 215 25% 20%;
 
     /* Card & Surface Colors */
     --card: 0 0% 100%;
-    --card-foreground: 235 25% 15%;
-    --glass: 0 0% 100% / 0.8;
+    --card-foreground: 215 25% 20%;
+    --glass: 330 50% 95% / 0.85;
 
-    /* Primary Brand Colors - Professional Blue */
-    --primary: 235 85% 55%;
-    --primary-light: 235 95% 65%;
-    --primary-dark: 235 75% 45%;
+    /* Primary Brand Colors - Sophisticated Rose Gold */
+    --primary: 15 45% 65%;
+    --primary-light: 15 55% 75%;
+    --primary-dark: 15 35% 55%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary - Artistic Purple */
-    --secondary: 280 75% 60%;
-    --secondary-light: 280 85% 70%;
+    /* Secondary - Professional Deep Plum */
+    --secondary: 295 35% 35%;
+    --secondary-light: 295 45% 45%;
     --secondary-foreground: 0 0% 100%;
 
-    /* Accent - Warm Coral for artistic touch */
-    --accent: 15 85% 65%;
-    --accent-light: 15 95% 75%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent - Elegant Dusty Rose */
+    --accent: 340 35% 75%;
+    --accent-light: 340 45% 85%;
+    --accent-foreground: 215 25% 20%;
 
     /* Muted Colors */
-    --muted: 235 20% 95%;
-    --muted-foreground: 235 15% 55%;
+    --muted: 330 15% 96%;
+    --muted-foreground: 215 15% 55%;
 
     /* Utility Colors */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-    --border: 235 20% 90%;
-    --input: 235 20% 95%;
-    --ring: 235 85% 55%;
+    --border: 330 15% 92%;
+    --input: 330 15% 96%;
+    --ring: 15 45% 65%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-light)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-light)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
-    --gradient-artistic: linear-gradient(45deg, hsl(var(--secondary)), hsl(var(--accent)));
+    /* Gradients - Professional & Elegant */
+    --gradient-primary: linear-gradient(135deg, hsl(15 45% 65%), hsl(15 55% 75%));
+    --gradient-secondary: linear-gradient(135deg, hsl(295 35% 35%), hsl(295 45% 45%));
+    --gradient-accent: linear-gradient(135deg, hsl(340 35% 75%), hsl(340 45% 85%));
+    --gradient-hero: linear-gradient(135deg, hsl(15 45% 65% / 0.1) 0%, hsl(340 35% 75% / 0.1) 50%, hsl(295 35% 35% / 0.05) 100%);
+    --gradient-elegant: linear-gradient(45deg, hsl(15 45% 65% / 0.08), hsl(340 35% 75% / 0.08));
+    --gradient-sophisticated: linear-gradient(120deg, hsl(330 15% 98%) 0%, hsl(340 35% 75% / 0.03) 50%, hsl(15 45% 65% / 0.03) 100%);
 
-    /* Shadows & Effects */
-    --shadow-elegant: 0 4px 20px hsl(var(--primary) / 0.15);
-    --shadow-card: 0 2px 10px hsl(var(--foreground) / 0.08);
-    --shadow-hover: 0 8px 30px hsl(var(--primary) / 0.2);
-    --glow-primary: 0 0 20px hsl(var(--primary) / 0.3);
+    /* Shadows & Effects - Professional */
+    --shadow-elegant: 0 8px 32px hsl(15 45% 65% / 0.12);
+    --shadow-card: 0 4px 20px hsl(215 25% 20% / 0.06);
+    --shadow-hover: 0 12px 40px hsl(15 45% 65% / 0.18);
+    --shadow-soft: 0 2px 16px hsl(340 35% 75% / 0.1);
+    --shadow-professional: 0 6px 28px hsl(295 35% 35% / 0.1);
+    --glow-primary: 0 0 24px hsl(15 45% 65% / 0.15);
+    --glow-elegant: 0 0 32px hsl(340 35% 75% / 0.12);
     
-    /* Animations */
+    /* Animations & Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    --transition-elegant: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 
-    --radius: 0.75rem;
+    --radius: 0.875rem;
 
     --sidebar-background: 0 0% 98%;
 

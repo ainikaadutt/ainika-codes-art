@@ -9,18 +9,18 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary-dark shadow-elegant hover:shadow-hover transform hover:scale-105",
+        default: "bg-primary text-primary-foreground hover:bg-primary-dark shadow-elegant hover:shadow-hover transition-elegant transform hover:scale-[1.02]",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+          "bg-destructive text-destructive-foreground hover:bg-destructive/90 transition-elegant",
         outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
+          "border border-border bg-background hover:bg-accent hover:text-accent-foreground shadow-soft hover:shadow-card transition-elegant",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-card hover:shadow-hover",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-hero text-white border-0 shadow-glow hover:shadow-hover transform hover:scale-105 font-semibold",
-        artistic: "bg-gradient-artistic text-white border-0 shadow-elegant hover:shadow-hover transform hover:scale-105",
-        glass: "bg-glass backdrop-blur-md border border-white/20 text-foreground hover:bg-white/90",
+          "bg-secondary text-secondary-foreground hover:bg-secondary-light shadow-professional hover:shadow-elegant transition-elegant",
+        ghost: "hover:bg-accent hover:text-accent-foreground transition-elegant",
+        link: "text-primary underline-offset-4 hover:underline transition-elegant",
+        elegant: "bg-gradient-elegant text-primary-foreground border-0 shadow-soft hover:shadow-elegant transform hover:scale-[1.02] font-medium transition-elegant",
+        professional: "bg-gradient-sophisticated text-secondary border border-border/50 shadow-card hover:shadow-professional transition-elegant font-medium",
+        glass: "bg-glass backdrop-blur-lg border border-primary/20 text-foreground hover:bg-primary/5 shadow-soft hover:shadow-card transition-elegant",
       },
       size: {
         default: "h-10 px-4 py-2",

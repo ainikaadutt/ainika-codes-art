@@ -69,17 +69,26 @@ export default {
 				'gradient-secondary': 'var(--gradient-secondary)',
 				'gradient-accent': 'var(--gradient-accent)',
 				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-artistic': 'var(--gradient-artistic)',
+				'gradient-elegant': 'var(--gradient-elegant)',
+				'gradient-sophisticated': 'var(--gradient-sophisticated)',
 			},
 			boxShadow: {
 				'elegant': 'var(--shadow-elegant)',
 				'card': 'var(--shadow-card)',
 				'hover': 'var(--shadow-hover)',
+				'soft': 'var(--shadow-soft)',
+				'professional': 'var(--shadow-professional)',
 				'glow': 'var(--glow-primary)',
+				'glow-elegant': 'var(--glow-elegant)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
 				'spring': 'cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+				'elegant': 'cubic-bezier(0.23, 1, 0.32, 1)',
+			},
+			fontFamily: {
+				'elegant': ['Playfair Display', 'serif'],
+				'professional': ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
